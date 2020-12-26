@@ -31,6 +31,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+    'googleapp',  # your newly created app
+    'rest_framework',  # add this
 ]
 
 SITE_ID = 1
